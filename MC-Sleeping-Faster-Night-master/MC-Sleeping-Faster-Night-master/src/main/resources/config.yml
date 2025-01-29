@@ -1,0 +1,18 @@
+# #####################################
+# Thanks for using my plugin
+# If you have any issue or suggestions use my Discord : discord.gg/KMB5CXyf7b
+# If you want to support me you can rate my plugin on Spigot website. It's very appreciated :)
+# #####################################
+
+# Command name
+command: 'gfasternight'
+
+# Amount of ticks added when 100% of users are sleeping
+# 70 is a nice smooth skipping rate. 10918 ticks - 70 ticks = 155 / 20 = 7.75s
+skipping-ticks-speed: 70
+
+messages:
+  sleeping-players: '{sleeping_players}/{world_players} want to skip the night. Night is {speed_percent}% faster.'
+  sleeping-info: 'You can leave your bed if you want. Your participation is still count for this night.'
+
+metrics: true

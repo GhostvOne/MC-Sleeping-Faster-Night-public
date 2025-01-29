@@ -1,0 +1,4 @@
+name: GFasterNight
+version: '${project.version}'
+main: tv.ghostvone.sleepingfasternight.GFasterNight
+api-version: 1.20
